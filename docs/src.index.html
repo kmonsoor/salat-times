@@ -17,8 +17,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="https://salat.gq/">
     <meta name="author" content="Khaled Monsoor">
-    <link rel="image_src" href="https://salat.gq/favicon.ico">
-    <meta property="og:image" content="https://salat.gq/favicon.ico">
+    <link rel="image_src" href="https://salat.kmonsoor.com/favicon.ico">
+    <meta property="og:image" content="https://salat.kmonsoor.com/favicon.ico">
     <meta name="description" content="See salat times in your location; very quickly ...">
     <meta property="og:site_name" content="Salat Times. Get Quickly">
     <meta property="og:type" content="website">
@@ -28,10 +28,10 @@
     <meta property="og:description" content="See salat times in your location; very quickly ...">
     <meta name="twitter:site" content="@KhaledMonsoor">
     <meta name="twitter:creator" content="@KhaledMonsoor">
-    <meta name="twitter:image" content="https://salat.gq/favicon.ico">
+    <meta name="twitter:image" content="https://salat.kmonsoor.com/favicon.ico">
     <meta name="twitter:card" content="See salat times in your location; very quickly ...">
-    <link rel="icon" href="https://salat.gq/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="https://salat.gq/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://salat.kmonsoor.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://salat.kmonsoor.com/favicon.ico" type="image/x-icon">
     <!--<link href="css/table-responsive.css" media="screen" type="text/css" rel="stylesheet"/>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <style>
@@ -136,7 +136,7 @@
         $('#time').html("Current time: <b>" + (new Date()).toLocaleTimeString() + "</b>");
         $('#date').html("Salat times for today  (<b>" + (new Date()).toLocaleDateString('en-GB') + "</b>)");
 
-        $.getJSON("https://freegeoip.net/json/?callback=", function (ipData) {
+        $.getJSON("https://freegeoip.app/json/", function (ipData) {
             $('#timezone').html("Timezone : <b>" + ipData.time_zone + "</b>");
             $('#ip').html("Your public IP: <b>" + ipData.ip + "</b>");
             console.log(ipData);
