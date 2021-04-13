@@ -150,6 +150,7 @@
 
             $('#location').html("Lat: <b>" + ipData.latitude + "</b>, Long: <b>" + ipData.longitude + "</b>");
             $('#location-name').html("Location: <b>" + ipLocation + "</b>");
+            $('#date').html("Salat times for today  (<b>" + (new Date()).toLocaleDateString('en-GB') + " in " + ipLocation + "</b>");
 
             $.getScript("js/prayTimes.min.js")
              .done(function () {
