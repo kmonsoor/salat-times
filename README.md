@@ -1,7 +1,8 @@
-# Get just the salat times. Get it Quick.
-Visit it on: salat.kmonsoor.com
+# Get just the salat times, quickly, based on your IP-location
 
-Salat-times calculation code: Hamid Zarrabi-Zadeh  
-Timezone-detection code: Jon Nylander (pellepim)  
-Icon made by Freepik, used under CC-3.0-BY license  
-IP-to-Location mapping by: FreeGeoIP.net  
+Visit it on: [salat.kmonsoor.com](salat.kmonsoor.com)
+
+_Salat-times calculation code_: Hamid Zarrabi-Zadeh  
+_Timezone-detection code_: Jon Nylander (pellepim)  
+_Icon made by_ Freepik, _used under CC-3.0-BY license_  
+_IP-to-Location mapping by_: FreeGeoIP.app
